@@ -28,7 +28,16 @@ The strategy names Montserrat Bold for headings, Montserrat Regular for body/UI,
 
 ## Logo and layout
 
-The approved grey O!Sapiens wordmark is in [`assets/brand/osapiens-grey-logo.png`](../assets/brand/osapiens-grey-logo.png), copied from the owner's [Drive asset](https://drive.google.com/file/d/1w4t4cX9NeASi1mxjtD_N4UIhONcIumHv/view). It is a light mark intended for a dark background; keep its transparent background, aspect ratio and legibility. This repository does not contain a verified dark-on-light variant or an independent Sapiens OS logo. Use alt text “O!Sapiens” in HTML; for an adjacent identical heading, use empty alt to avoid duplicate speech. For PDF and slides, use equivalent accessible text and include creator credit where the method is explained. Never use a third-party wearable logo without its brand permission.
+The owner's [O!Sapiens asset folder](https://drive.google.com/drive/folders/18qLiK6mJDsizfn-BbfQsEU7ssSC5FJrN) contains original marks, wordmarks and brand reference PDFs. Approved files carried into this repository:
+
+| Asset | Intended use |
+| --- | --- |
+| [`osapiens-grey-logo.png`](../assets/brand/osapiens-grey-logo.png) | Light wordmark on the dashboard's dark blue header. |
+| [`osapiens-blue-logo.svg`](../assets/brand/osapiens-blue-logo.svg) | Blue wordmark on light backgrounds in vector-friendly reports, slides and web pages. |
+| [`osapiens-beige-logo.svg`](../assets/brand/osapiens-beige-logo.svg) | Beige wordmark on suitably dark backgrounds, when contrast is adequate. |
+| [`o-grey.svg`](../assets/brand/o-grey.svg), [`o-blue.svg`](../assets/brand/o-blue.svg), [`o-beige.svg`](../assets/brand/o-beige.svg), [`o-green.svg`](../assets/brand/o-green.svg) | Standalone O! mark for small spaces or product-line accents, with the brand named in nearby accessible text. |
+
+These are existing owner-provided designs, not generated approximations. Keep their transparent backgrounds, aspect ratios and legibility; do not recolor paths. Check contrast against the final background. Do not use a pale beige or green mark on near-white solely because it is in the palette. The dashboard uses the grey full wordmark; a report on near-white can use the blue full wordmark. This repository does not contain an independent Sapiens OS logo, so pair an O!Sapiens mark with the visible **Sapiens OS** method title. Use alt text “O!Sapiens” for a full logo or “O!Sapiens mark” for the standalone mark; for an adjacent identical heading, use empty alt to avoid duplicate speech. For PDF and slides, use equivalent accessible text and include creator credit where the method is explained. Never use a third-party wearable logo without its brand permission.
 
 Favor generous whitespace, a small number of meaningful charts, visible units and dates, text labels with every status, and tables or plain-language summaries alongside graphs. Support keyboard navigation, zoom, reduced motion, and readable exports. Avoid red/green-only alerts, visual shame, decorative biometric claims, and stock images that imply a universal body or ability.
 
