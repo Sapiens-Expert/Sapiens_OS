@@ -30,6 +30,8 @@ Onboard across all ten domains → agree on a private baseline and what matters 
 
 After onboarding, the AI offers an optional [local dashboard](dashboard/README.md) with a ten-domain reflection and imported weekly or monthly data. [Data-source setup](docs/CONNECTORS.md) explains Apple Health, Oura, generic CSV and what a future consented sync would require. It runs without an account or network connection, and makes no clinical prediction. For coaching and behavior-change practice, see [docs/COACHING.md](docs/COACHING.md).
 
+To try a small routine, use the [habit guide](docs/HABITS.md), [private experiment template](templates/HABIT-EXPERIMENT.md), and optional [local habit tracker](habits/index.html). The tracker supports dated reflections and an opt-in calendar event download. It does not send notifications itself or monitor behavior in the background.
+
 See [docs/SAFETY.md](docs/SAFETY.md) for escalation, [docs/EVIDENCE.md](docs/EVIDENCE.md) for the scientific basis and limits, and [docs/IMPLEMENTATION.md](docs/IMPLEMENTATION.md) for platform setup and privacy.
 
 ## Authorship and rights

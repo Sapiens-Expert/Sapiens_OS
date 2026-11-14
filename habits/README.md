@@ -1,0 +1,7 @@
+# Optional offline habit experiment
+
+Open [`index.html`](index.html) directly in a modern browser. It has no remote scripts, analytics or accounts. Try importing the fictional [`sample-habit.json`](../examples/sample-habit.json) before entering personal details. Choose one action and cue, then record dated observations. The page retains data only in the current tab's memory; refresh or closing the tab clears it unless you explicitly download a private JSON copy. Import that copy later if you choose. It does not read the ten-domain dashboard profile or infer health status. Browser extensions, device backups and saved downloads may still expose data, so keep your own device secure and never commit a completed file.
+
+The calendar feature downloads a standard `.ics` file with a neutral title and the selected recurrence. It is **not** a notification service. Import the file into a calendar, inspect the schedule in your local timezone, confirm notifications and visibility, and set or remove the event there. A calendar may handle floating local times and repeated events differently. A new download does not cancel an earlier imported event. If your calendar cannot import the file, use the schedule in [HABITS.md](../docs/HABITS.md) to create the event manually.
+
+No streak, adherence score, automatic alerts or background sync is included. Use the optional [planning template](../templates/HABIT-EXPERIMENT.md) for consent, barrier plans and review. This is a reflection tool, not a medical device.

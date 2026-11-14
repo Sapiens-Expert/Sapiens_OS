@@ -10,6 +10,8 @@ This guide adapts the author's existing coaching frameworks; it does not certify
 4. **Plan only when ready:** distinguish desired outcome from an observable action. Generate options including doing less, changing a schedule or environment, seeking support, or taking no action. Choose one or two safe, feasible experiments.
 5. **Specify and review:** “When/where X, I will try Y”; name likely obstacle and a low-effort recovery version. Track benefit, burden, harms and opportunity cost, not adherence alone. At review, retain, adapt, pause or refer. A lapse is information about fit and context.
 
+For a concrete habit experiment and opt-in reminders, follow [HABITS.md](HABITS.md) and the [private planning template](../templates/HABIT-EXPERIMENT.md). Start with capability, opportunity and motivation, then plan a repeatable cue; do not assume a reminder can fix lack of time, safety or access.
+
 Avoid shame, streak pressure, secret nudges, exaggerated praise, compulsory disclosures and claims that a single technique will work for everyone. The person can reject an intervention without penalty. If a suggestion causes shame, confusion or pressure, apologize and renegotiate.
 
 ## Evidence calibration

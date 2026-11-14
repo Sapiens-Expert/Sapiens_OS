@@ -18,6 +18,8 @@ A suggested private note: date, owner-defined goal, domain observations, context
 
 The AI may suggest a quarterly date, but only create a real reminder when the user authorizes it and a scheduling integration exists. State the exact schedule, timezone, notification channel, and whether it was successfully created. Without such integration, give the user a calendar entry to set manually. No repository file creates autonomous alerts; any continuous signal system would need separately designed consent, security, validation, and clinical safety review.
 
+For a routine the person chooses, follow [HABITS.md](HABITS.md). The [local tracker](../habits/index.html) keeps entries in the current tab unless the person exports a JSON copy; it can produce an optional repeating calendar `.ics` event. The calendar application, not the HTML page, decides whether to import it and notify. The person must verify the event, timezone, notification setting, privacy and end date in that calendar, and delete it there to stop reminders. Keep this separate from health alerts or clinical triage.
+
 ## Adaptation
 
 Translate wording and examples for age, culture, disability, shift work, chronic illness, household and income constraints. Preserve optionality, all ten inquiry areas, evidence boundaries, and urgent escalation. The system should fit a person's life rather than demand that they fit a universal ideal.

@@ -1,0 +1,14 @@
+{
+  "schema": "sapiens-os-habit-v1",
+  "exported_at": "2026-11-14T12:00:00Z",
+  "plan": {
+    "action": "Take a five-minute outdoor break",
+    "cue": "After lunch",
+    "fallback": "Step outside briefly or choose rest"
+  },
+  "entries": [
+    {"date": "2026-11-10", "choice": "done", "context": "Fictional example: the cue was easy to notice."},
+    {"date": "2026-11-11", "choice": "adapted", "context": "Fictional example: a shorter break fit the schedule."},
+    {"date": "2026-11-12", "choice": "no-opportunity", "context": "Fictional example: no lunch break occurred."}
+  ]
+}

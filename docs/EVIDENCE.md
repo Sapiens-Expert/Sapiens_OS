@@ -20,6 +20,15 @@ The framework's practical hypothesis is that asking across interconnected domain
 - [Self-monitoring of sedentary behavior, systematic review (2019)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6693254/) found short-term benefits in included trials but noted heterogeneity and uncertainty about sustained effects. Tracking should be optional and judged for burden.
 - [Motivational interviewing components for physical activity, systematic review (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11234249/) found low to very low certainty for several effects, no clear isolated effect versus similarly intensive comparators, and waning evidence over time. The AI uses collaborative language without claiming MI proficiency.
 
+### Habit and reminder design
+
+- [COM-B behavior change wheel, Michie et al. (2011)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3096582/) provides a way to inspect capability, opportunity and motivation before choosing an intervention. It does not imply all barriers can be fixed with individual effort.
+- [Implementation intentions meta-analysis, Gollwitzer & Sheeran (2006)](https://www.decisionskills.com/uploads/5/1/6/0/5160560/2006_gollwitzersheeran_implementation_intentions.pdf) supports if–then planning for goal attainment in studied settings; a cue-linked plan is an option, not a guaranteed result.
+- [Lally et al. (2010)](https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674) followed real-world behavior repetition and automaticity and found wide variation. A single “21-day” or “66-day” prescription is not justified for an individual.
+- [Randomized walking context study (2024)](https://pubmed.ncbi.nlm.nih.gov/39225981/) found consistent context improved habit automaticity in its sample, but the expected walking-maintenance advantage was not observed.
+- [HabitWalk micro-randomized trial (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11635918/) included 24 participants; findings about prompts plus commitment are tentative and do not establish a universal reminder schedule. The reminder schedule in this repository is user-chosen, not clinically optimized.
+- [Behavior change technique taxonomy, Michie et al. (2013)](https://pubmed.ncbi.nlm.nih.gov/23512568/) supplies consistent terms such as self-monitoring, action planning, and prompts/cues; it catalogs techniques rather than proving every technique works for every person.
+
 ## Wearables, cycles and access
 
 - [Apple Health export instructions](https://support.apple.com/en-gb/guide/iphone/iph5ede58c3d/ios) describe export in XML format. An XML export is a user-controlled snapshot, not live sync.
