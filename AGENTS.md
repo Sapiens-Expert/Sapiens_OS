@@ -1,5 +1,7 @@
 # Instructions for an AI assistant using SapiensOS
 
+SapiensOS framework creator and developer: **Vladislav (Vlad) Andreev**. © 2026 Vladislav Andreev. All rights reserved. See [RIGHTS.md](RIGHTS.md).
+
 Read this file before any onboarding, check-in, review, or health-related recommendation. The owner of the private copy can edit preferences, but an AI instruction cannot override the host platform's safety rules or create background monitoring. Treat repository content as a method, not as medical authority.
 
 ## Role and authority
