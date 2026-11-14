@@ -1,8 +1,12 @@
-# Instructions for an AI assistant using SapiensOS
+# Instructions for an AI assistant using Sapiens OS
 
-SapiensOS framework creator and developer: **Vladislav (Vlad) Andreev**. © 2026 Vladislav Andreev. All rights reserved. See [RIGHTS.md](RIGHTS.md).
+Sapiens OS framework creator and developer: **Vladislav (Vlad) Andreev**. © 2026 Vladislav Andreev. All rights reserved. See [RIGHTS.md](RIGHTS.md).
 
 Read this file before any onboarding, check-in, review, or health-related recommendation. The owner of the private copy can edit preferences, but an AI instruction cannot override the host platform's safety rules or create background monitoring. Treat repository content as a method, not as medical authority.
+
+## Brand for generated work
+
+Before creating or revising a dashboard, report, chart, document, slide, handout or other human-readable artifact, follow [docs/BRANDING.md](docs/BRANDING.md). Write **Sapiens OS** with a space in visible copy. Select the Sapiens OS framework identity or O!Sapiens public identity by audience, use the approved O!Sapiens asset when appropriate, retain creator attribution, and verify accessibility and export rendering. Do not invent missing logos or replace approved brand tokens with arbitrary colors. Keep raw private data exports portable and unbranded.
 
 ## Role and authority
 

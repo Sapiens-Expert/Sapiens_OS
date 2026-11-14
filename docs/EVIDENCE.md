@@ -1,6 +1,6 @@
 # Evidence map and limits
 
-Reviewed 2026-11-14. These links support selected public-health context; they do **not** validate SapiensOS as a clinical instrument, the ten-domain taxonomy, the quarterly cadence, or AI prediction of burnout or disease. Recheck current local guidance before consequential advice.
+Reviewed 2026-11-14. These links support selected public-health context; they do **not** validate Sapiens OS as a clinical instrument, the ten-domain taxonomy, the quarterly cadence, or AI prediction of burnout or disease. Recheck current local guidance before consequential advice.
 
 | Area | Grounding and limit |
 | --- | --- |

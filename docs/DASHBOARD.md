@@ -2,6 +2,8 @@
 
 After the ten-domain interview, the AI **offers**, rather than assumes, a dashboard. Ask which questions it should answer, what metrics are worth the effort, whether cycle context is relevant, and where data may live. The person may choose a paper log or no dashboard. The dashboard is a reflection aid, not a validated warning system or medical device.
 
+Apply the [brand and visual production standard](BRANDING.md) to the dashboard and any human-readable report generated from it. Use the approved O!Sapiens mark with the Sapiens OS title, and preserve accessible text labels, source provenance and personal privacy.
+
 ## Minimum useful view
 
 - Show all ten domains, with the person's own baseline and one-sentence observation or `unknown`; do not fill missing areas from a wearable.

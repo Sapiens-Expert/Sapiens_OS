@@ -1,13 +1,15 @@
-# SapiensOS for Humans
+# Sapiens OS for Humans
 
 **Framework creator and developer: Vladislav (Vlad) Andreev.** © 2026 Vladislav Andreev. All rights reserved. [Rights and permissions](RIGHTS.md).
 
-A portable, human-owned set of instructions for working with an AI assistant to notice patterns in well-being and make sustainable choices. This repository presents the ten-domain SapiensOS framework developed by Vladislav (Vlad) Andreev. This is an educational decision aid, not a medical device, diagnosis, treatment, or emergency service. There is no evidence that these ten domains, this particular scoring approach, or an AI chat can reliably predict burnout or disease.
+A portable, human-owned set of instructions for working with an AI assistant to notice patterns in well-being and make sustainable choices. This repository presents the ten-domain Sapiens OS framework developed by Vladislav (Vlad) Andreev. This is an educational decision aid, not a medical device, diagnosis, treatment, or emergency service. There is no evidence that these ten domains, this particular scoring approach, or an AI chat can reliably predict burnout or disease.
+
+Generated dashboards, reports and other branded materials follow the [brand and visual production standard](docs/BRANDING.md), with the approved O!Sapiens wordmark and the visible name **Sapiens OS** for this framework.
 
 ## Start in 10 minutes
 
 1. If you have permission to use these materials, set up an authorized **private** copy. Keep this public template free of your health data. Do not submit completed forms in issues or pull requests.
-2. Give your AI assistant [AGENTS.md](AGENTS.md) as its standing instruction, then ask: “Start the SapiensOS onboarding interview in `templates/ONBOARDING.md`. Ask one section at a time. Let me skip any question.” If your AI cannot retain files, paste AGENTS.md and the form at the start of each session.
+2. Give your AI assistant [AGENTS.md](AGENTS.md) as its standing instruction, then ask: “Start the Sapiens OS onboarding interview in `templates/ONBOARDING.md`. Ask one section at a time. Let me skip any question.” If your AI cannot retain files, paste AGENTS.md and the form at the start of each session.
 3. Save your answers outside this template in your own private notes. You can use the blank form, or keep only a concise summary. Review what the AI retained and correct it. Do not upload records, tests, diagnoses, or third-party information unless you understand the service's data controls.
 4. Set your own calendar reminder for a quarterly review. At that time give the AI your latest private summary and [templates/QUARTERLY-REVIEW.md](templates/QUARTERLY-REVIEW.md). An AI chat alone cannot guarantee a scheduled check-in or alert; use a real reminder or automation you control.
 5. Between reviews, use [templates/WEEKLY-CHECK-IN.md](templates/WEEKLY-CHECK-IN.md) when useful. You can stop, delete your notes, or change the system at any time.
@@ -32,4 +34,4 @@ See [docs/SAFETY.md](docs/SAFETY.md) for escalation, [docs/EVIDENCE.md](docs/EVI
 
 ## Authorship and rights
 
-SapiensOS was developed by **Vladislav (Vlad) Andreev**, who directs this repository and reserves rights in its original written materials and code to the extent provided by applicable law. **All rights reserved; no open-source or Creative Commons license is granted.** Ask the owner for written permission before using, copying, adapting or redistributing these materials beyond rights supplied by law or the hosting platform. See [RIGHTS.md](RIGHTS.md) for scope and third-party acknowledgments. Do not submit contributions until their rights and terms are agreed in writing.
+Sapiens OS was developed by **Vladislav (Vlad) Andreev**, who directs this repository and reserves rights in its original written materials and code to the extent provided by applicable law. **All rights reserved; no open-source or Creative Commons license is granted.** Ask the owner for written permission before using, copying, adapting or redistributing these materials beyond rights supplied by law or the hosting platform. See [RIGHTS.md](RIGHTS.md) for scope and third-party acknowledgments. Do not submit contributions until their rights and terms are agreed in writing.
