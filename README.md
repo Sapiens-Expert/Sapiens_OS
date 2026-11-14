@@ -24,6 +24,8 @@ The domains are a teaching structure, not ten equally validated biomarkers or a 
 
 Onboard across all ten domains → agree on a private baseline and what matters → optional brief check-ins → notice changes and ask clarifying questions → propose one feasible adjustment or recommend qualified care when appropriate → quarterly full review. The human decides what to share, try, retain, and stop. The AI must not claim passive monitoring, automatic detection, or emergency response unless those capabilities have actually been configured and tested.
 
+After onboarding, the AI offers an optional [local dashboard](dashboard/README.md) with a ten-domain reflection and imported weekly or monthly data. [Data-source setup](docs/CONNECTORS.md) explains Apple Health, Oura, generic CSV and what a future consented sync would require. It runs without an account or network connection, and makes no clinical prediction. For coaching and behavior-change practice, see [docs/COACHING.md](docs/COACHING.md).
+
 See [docs/SAFETY.md](docs/SAFETY.md) for escalation, [docs/EVIDENCE.md](docs/EVIDENCE.md) for the scientific basis and limits, and [docs/IMPLEMENTATION.md](docs/IMPLEMENTATION.md) for platform setup and privacy.
 
 ## License and attribution

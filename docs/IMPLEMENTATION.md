@@ -4,6 +4,10 @@
 
 Place `AGENTS.md` in the tool's persistent project instructions if supported. Put the templates and docs in the same project or make them available on demand. Ask the AI to read the relevant file at the start of each review. Test it with fictional data before sharing real health information. Verify it can enumerate ten domains, honor a skip, preserve `unknown`, distinguish observation from inference, and respond to an urgent example without waiting for a scheduled review.
 
+## Dashboard choice
+
+After the initial ten-domain interview, offer the person `docs/DASHBOARD.md`. Ask whether a dashboard helps, which one to three signals matter, and whether a paper/notes version is preferable. The included `dashboard/index.html` works as an offline starter with manual reflections and CSV import. It does not sync devices or send alerts in the background. Verify data provenance and missingness before discussing trends.
+
 ## Data ownership
 
 The public source repository is a blank template. Keep completed profiles and check-ins outside it, in a private location you choose. Consider whether your AI vendor stores conversations, trains on them, exposes them to collaborators, or supports deletion and export. Choose minimum necessary details, redact third-party information, and avoid storing medical documents by default. If you create a private fork, check its visibility and access before saving any records; a fork or its history may later become public.

@@ -1,0 +1,17 @@
+{
+  "schema": "sapiens-os-session-v1",
+  "note": "Fictional example: protect recovery time during a busy month",
+  "domains": {
+    "Sleep": {"status": "mixed", "note": "Fictional: schedule varies"},
+    "Nutrition": {"status": "unknown", "note": ""},
+    "Movement": {"status": "supportive", "note": "Fictional: walking feels good"},
+    "Stress": {"status": "mixed", "note": "Fictional: work demand increased"},
+    "Social connection": {"status": "unknown", "note": ""},
+    "Light/dark rhythms": {"status": "unknown", "note": ""},
+    "Agency": {"status": "mixed", "note": "Fictional: little control over deadlines"},
+    "Meaning": {"status": "supportive", "note": "Fictional: work feels meaningful"},
+    "Rest": {"status": "difficult", "note": "Fictional: few real breaks"},
+    "Curiosity": {"status": "unknown", "note": ""}
+  },
+  "observations": []
+}

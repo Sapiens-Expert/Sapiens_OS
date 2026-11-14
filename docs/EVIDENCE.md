@@ -13,3 +13,16 @@ Reviewed 2026-11-14. These links support selected public-health context; they do
 | Light/dark, agency, meaning, rest, curiosity | Useful inquiry areas in this teaching framework. This repository makes no claim that each is an independently validated score or that modifying any one will prevent illness. Evidence for specific interventions must be checked separately. |
 
 The framework's practical hypothesis is that asking across interconnected domains and revisiting changes can improve a person's reflection and choices. It remains untested here. A future validation study would need defined populations, outcomes, false-positive and false-negative analysis, harms, privacy review, and comparison to usual support before any predictive claims.
+
+## Behavior-change practices and limitations
+
+- [Implementation intentions, Gollwitzer & Sheeran (2006)](https://cancercontrol.cancer.gov/brp/research/constructs/implementation-intentions) synthesize evidence for specific cue-linked plans. Effects vary by behavior and context; do not use a universal effect size as an individual promise.
+- [Self-monitoring of sedentary behavior, systematic review (2019)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6693254/) found short-term benefits in included trials but noted heterogeneity and uncertainty about sustained effects. Tracking should be optional and judged for burden.
+- [Motivational interviewing components for physical activity, systematic review (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11234249/) found low to very low certainty for several effects, no clear isolated effect versus similarly intensive comparators, and waning evidence over time. The AI uses collaborative language without claiming MI proficiency.
+
+## Wearables, cycles and access
+
+- [Apple Health export instructions](https://support.apple.com/en-gb/guide/iphone/iph5ede58c3d/ios) describe export in XML format. An XML export is a user-controlled snapshot, not live sync.
+- [Oura export instructions](https://support.ouraring.com/hc/articles/360025441594-Export-Share-Your-Oura-Data) describe CSV Trends and personal-data export. [Oura API V2](https://cloud.ouraring.com/v2/docs) requires a registered app and OAuth; personal access tokens were deprecated in 2025. This project implements file import only.
+- [Wearable menstrual-cycle study (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11416332/) and a [larger observational study (2026)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13482339/) describe within-person variation in some wearable signals. Study populations and device measures do not define a person's clinical normal. Cycle phase should be optional and user-labeled, not inferred from a biomarker.
+- [W3C WCAG 2.2](https://www.w3.org/TR/wcag/) informs the dashboard's labels, keyboard use, text alternatives and cognitive accessibility. This implementation is a starter and has not been independently audited for conformance.

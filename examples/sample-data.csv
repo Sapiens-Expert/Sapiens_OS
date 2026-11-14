@@ -1,0 +1,10 @@
+date,metric,value,unit,source,context_phase
+2026-10-01,sleep_duration,7.1,hours,demo,
+2026-10-02,sleep_duration,6.8,hours,demo,
+2026-10-03,sleep_duration,7.4,hours,demo,
+2026-10-08,sleep_duration,6.6,hours,demo,
+2026-10-09,sleep_duration,6.9,hours,demo,
+2026-10-15,sleep_duration,6.4,hours,demo,
+2026-10-16,sleep_duration,6.8,hours,demo,
+2026-10-22,sleep_duration,7.3,hours,demo,
+2026-10-23,sleep_duration,7.0,hours,demo,

@@ -4,3 +4,9 @@ my-data/
 records/
 *.health.json
 .env
+*.health.csv
+export.xml
+export.zip
+health-export/
+__pycache__/
+*.pyc
