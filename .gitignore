@@ -1,0 +1,6 @@
+# Keep personal records out of a shared repository.
+private/
+my-data/
+records/
+*.health.json
+.env

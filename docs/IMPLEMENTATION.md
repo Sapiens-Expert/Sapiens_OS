@@ -1,0 +1,19 @@
+# Implement in your own AI environment
+
+## Minimal setup
+
+Place `AGENTS.md` in the tool's persistent project instructions if supported. Put the templates and docs in the same project or make them available on demand. Ask the AI to read the relevant file at the start of each review. Test it with fictional data before sharing real health information. Verify it can enumerate ten domains, honor a skip, preserve `unknown`, distinguish observation from inference, and respond to an urgent example without waiting for a scheduled review.
+
+## Data ownership
+
+The public source repository is a blank template. Keep completed profiles and check-ins outside it, in a private location you choose. Consider whether your AI vendor stores conversations, trains on them, exposes them to collaborators, or supports deletion and export. Choose minimum necessary details, redact third-party information, and avoid storing medical documents by default. If you create a private fork, check its visibility and access before saving any records; a fork or its history may later become public.
+
+A suggested private note: date, owner-defined goal, domain observations, context, uncertainty, user-approved experiment, stop condition, next review, and source of each observation. The owner may edit or erase it. Do not silently use wearable, calendar, email, or other connected data.
+
+## Reminders and integrations
+
+The AI may suggest a quarterly date, but only create a real reminder when the user authorizes it and a scheduling integration exists. State the exact schedule, timezone, notification channel, and whether it was successfully created. Without such integration, give the user a calendar entry to set manually. No repository file creates autonomous alerts; any continuous signal system would need separately designed consent, security, validation, and clinical safety review.
+
+## Adaptation
+
+Translate wording and examples for age, culture, disability, shift work, chronic illness, household and income constraints. Preserve optionality, all ten inquiry areas, evidence boundaries, and urgent escalation. The system should fit a person's life rather than demand that they fit a universal ideal.
