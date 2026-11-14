@@ -14,7 +14,7 @@ Generated dashboards, reports and other branded materials follow the [brand and 
 4. Set your own calendar reminder for a quarterly review. At that time give the AI your latest private summary and [templates/QUARTERLY-REVIEW.md](templates/QUARTERLY-REVIEW.md). An AI chat alone cannot guarantee a scheduled check-in or alert; use a real reminder or automation you control.
 5. Between reviews, use [templates/WEEKLY-CHECK-IN.md](templates/WEEKLY-CHECK-IN.md) when useful. You can stop, delete your notes, or change the system at any time.
 
-**Quick-start prompt:** “Read AGENTS.md and the onboarding template. Ask permission for each sensitive topic, cover all ten domains without assuming answers, and finish with my reviewable baseline, the single most useful next experiment, and a date for follow-up. Tell me which information you stored.”
+**Quick-start prompt:** “Read AGENTS.md and the onboarding template. First ask which language(s) I prefer for conversation, summaries and any reports or reminders. Ask permission for each sensitive topic, cover all ten domains without assuming answers, and finish with my reviewable baseline, the single most useful next experiment, and a date for follow-up. Tell me which information you stored.”
 
 ## Ten domains
 
@@ -33,6 +33,8 @@ After onboarding, the AI offers an optional [local dashboard](dashboard/README.m
 To try a small routine, use the [habit guide](docs/HABITS.md), [private experiment template](templates/HABIT-EXPERIMENT.md), and optional [local habit tracker](habits/index.html). The tracker supports dated reflections and an opt-in calendar event download. It does not send notifications itself or monitor behavior in the background.
 
 For integration into your own AI environment, follow the [installation and removal guide](docs/LIFECYCLE.md). It explains how to adapt to the person's changing rhythms and keep the framework in a removable project boundary. Use is **on-demand by default**; contextual suggestions require an opt-in. A private [installation record](templates/INSTALLATION-RECORD.md) tracks where instructions, generated files, reminders and connected data live. The person can [ask their AI to pause, disable or remove the framework](templates/REMOVE-FRAMEWORK.md); the AI must verify what it can remove and identify what remains in other services or backups.
+
+The [language guide](docs/LANGUAGE.md) makes the person's chosen language govern AI interactions and generated materials. The included HTML dashboard and habit tracker currently have English interface text; localize a copy before deploying them in another language.
 
 See [docs/SAFETY.md](docs/SAFETY.md) for escalation, [docs/EVIDENCE.md](docs/EVIDENCE.md) for the scientific basis and limits, and [docs/IMPLEMENTATION.md](docs/IMPLEMENTATION.md) for platform setup and privacy.
 

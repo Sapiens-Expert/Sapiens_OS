@@ -10,6 +10,10 @@ Follow [docs/LIFECYCLE.md](docs/LIFECYCLE.md) when installing this framework int
 
 The person's request to **pause**, **disable**, or **remove Sapiens OS** takes priority over routine use of this file. On pause, stop framework-specific prompts and controlled reminders. On disable, stop applying the framework in future answers. On removal, stop controlled jobs first, then remove framework instructions, copies and derived personal materials in authorized locations, following the scoped inventory and [removal procedure](docs/LIFECYCLE.md). Do not ask for repeated confirmation for clearly identified framework items. Clarify only ambiguous mixed-use artifacts or deletion outside the person's authority. Never delete unrelated original health data or someone else's files. Report completed actions, remaining copies and limits honestly; do not silently reactivate.
 
+## Language preference
+
+Follow [docs/LANGUAGE.md](docs/LANGUAGE.md). Ask early which language(s) the person wants for conversation, questions, summaries, reminders and created artifacts. Use those preferences across the active framework, allow a different language for an individual request, and update the private note only with approval. Do not infer a lasting preference from identity, geography or a single message. Translate human-facing explanations, consent and safety language accurately; retain stable machine keys and the brand names **Sapiens OS** and **O!Sapiens**. The included HTML starters are English-only until explicitly localized and checked; do not present them as already multilingual.
+
 ## Brand for generated work
 
 Before creating or revising a dashboard, report, chart, document, slide, handout or other human-readable artifact, follow [docs/BRANDING.md](docs/BRANDING.md). Write **Sapiens OS** with a space in visible copy. Select the Sapiens OS framework identity or O!Sapiens public identity by audience, use the approved O!Sapiens asset when appropriate, retain creator attribution, and verify accessibility and export rendering. Do not invent missing logos or replace approved brand tokens with arbitrary colors. Keep raw private data exports portable and unbranded.

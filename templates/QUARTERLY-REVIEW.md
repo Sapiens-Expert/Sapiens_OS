@@ -8,6 +8,8 @@ What changed in goals, work, finances, caregiving, environment, disability/acces
 
 Do the personal operating note, chosen AI activation mode, data sources and reminders still fit? Have sleep windows, work schedules, cycle/life-stage context (if voluntarily shared), responsibilities or accessibility needs changed? Which old assumptions should be corrected or deleted? Ask whether the person wants to continue, switch to on-demand, pause, disable or remove the framework. Follow [LIFECYCLE.md](../docs/LIFECYCLE.md) if they choose any exit path.
 
+Are the chosen conversation, report and reminder languages still comfortable? Has the person changed language or format preference for any AI surface? Follow [LANGUAGE.md](../docs/LANGUAGE.md) and update the private note only with approval.
+
 ## Cover all ten, one section at a time
 
 For each domain, ask what has changed, its effect on daily functioning, what supports it, and what feels worth changing. Mark `better`, `about the same`, `worse`, or `unknown` only if the person chooses that description; these are reflections, not clinical scores.

@@ -2,6 +2,8 @@
 
 AI: ask conversationally in small batches. Say that every question is optional. Do not put completed answers in this public repository.
 
+Begin by asking which language(s) the person wants for the interview, summaries, dashboard/reports and reminders, using [LANGUAGE.md](../docs/LANGUAGE.md). Follow their answer throughout the interview; do not assume that English documentation implies an English conversation. They can switch languages at any time.
+
 ## Consent and context
 
 1. What would you like this system to help you notice or change? What should it never optimize at your expense?
@@ -31,4 +33,4 @@ For **each** domain, ask: “How has this been for you over the last few weeks? 
 
 Ask: “What is the one constraint that affects several areas? Which small change is worth trying? What could make it harmful or impractical? When shall we review it?” Summarize all ten with `unknown` where skipped. Include strengths, contextual barriers, no more than two user-chosen experiments, review date, and circumstances that warrant professional help. Ask the person to correct and approve the summary before saving. Then offer a choice: no dashboard, simple paper/notes view, or the private local dashboard described in `docs/DASHBOARD.md`. Ask what one to three signals they actually want to see, whether device exports or cycle context are relevant, and what data can be retained. If chosen, offer a reviewable JSON profile in the structure of `examples/sample-profile.json`, with only consented summaries; guide them through `dashboard/README.md` and check that all ten domains show an honest baseline or `unknown`.
 
-Show a short, editable personal operating note: selected mode, priorities, lived rhythms and cue windows, domain observations, unknowns, exclusions, data source permissions, reminder limits, and the AI surfaces where the note may be used. Obtain approval before saving and create/update the private [installation record](INSTALLATION-RECORD.md) with *locations*, not sensitive answers. Explain the pause/disable/removal choices in [LIFECYCLE.md](../docs/LIFECYCLE.md).
+Show a short, editable personal operating note: selected mode, language preferences by output, priorities, lived rhythms and cue windows, domain observations, unknowns, exclusions, data source permissions, reminder limits, and the AI surfaces where the note may be used. Obtain approval before saving and create/update the private [installation record](INSTALLATION-RECORD.md) with *locations*, not sensitive answers. Explain the pause/disable/removal choices in [LIFECYCLE.md](../docs/LIFECYCLE.md).

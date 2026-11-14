@@ -1,0 +1,19 @@
+# Language and communication preferences
+
+The person chooses the language in which Sapiens OS communicates. At the start of onboarding, ask in the language they used to start the conversation: **“Which language would you like me to use for questions, summaries, reminders and any dashboard or report I create? You can choose different languages for different outputs and change this later.”** If the initial message is ambiguous, ask a short neutral question rather than inferring from location, name, passport, device settings or the language of this repository.
+
+Record only approved preferences in the private personal operating note: conversation language, reading/report language, reminder language, preferred script or locale if relevant, plain-language level, pronouns/forms of address if offered, and any accessibility needs. Allow multilingual answers and code-switching. If the person switches language, follow their current request; ask only if a lasting preference is unclear. Do not automatically translate or store sensitive answers elsewhere merely to change presentation language.
+
+## For every AI-generated surface
+
+- Use the selected language in the onboarding interview, check-ins, coaching suggestions, dashboard labels and descriptions, reports, calendar descriptions, notifications, exports intended for people, and pause/removal instructions. Keep a consistent language within each artifact unless the person prefers bilingual content.
+- Preserve the meanings and optional nature of all ten domains. Use everyday phrasing, and show the original domain label in parentheses only if needed for cross-language mapping. Check translations of safety, consent, uncertainty and professional referral language especially carefully. Do not pretend a machine translation is professionally reviewed.
+- Keep **Sapiens OS** and **O!Sapiens** exactly as brand names. Attribution to Vladislav (Vlad) Andreev remains. Technical identifiers, file paths, JSON keys, CSV column names and schema values remain stable for interoperability; translate the visible label and explain it separately if useful.
+- Format dates, times, decimal numbers and units in the person's locale in human-facing text; keep machine-readable ISO dates and normalized CSV/JSON unchanged. Confirm timezone before scheduling a reminder. Avoid idioms, gender assumptions or culturally narrow examples. Do not translate a person's verbatim answer without clearly identifying it as a translation.
+- Ask whether the output is understandable and comfortable, and correct it when the person says otherwise. A language choice never alters clinical limitations, consent requirements or the ability to stop the framework.
+
+## Included starter interfaces
+
+The checked-in `dashboard/index.html` and `habits/index.html` currently have English interface text. They do **not** auto-detect or switch languages. When deploying them for a person who chooses another language, create or obtain a reviewed localized copy before presenting it as their personal dashboard/tracker. Translate all visible controls, status messages, error text, table headers, alternative text, print/export-facing prose and calendar event/notification text; set the HTML `lang` attribute; verify labels and keyboard/screen-reader use. Do not change machine schema keys, data parsing, calendar syntax or privacy behavior. Test with fictional data, especially import errors, empty states, removal controls and reminders. If localization is not available yet, say that the starter UI is English and offer a language-matched paper/notes view or translated report instead.
+
+The source Markdown remains English for maintainers. The AI can translate the *interaction* and generated materials for the person without rewriting the canonical repository or inventing an official translated edition. Future maintained translations should include language/locale, reviewer, version/date and a way to update them when the source changes.

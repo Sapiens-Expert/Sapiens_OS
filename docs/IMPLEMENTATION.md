@@ -26,4 +26,4 @@ For a routine the person chooses, follow [HABITS.md](HABITS.md). The [local trac
 
 ## Adaptation
 
-Translate wording and examples for age, culture, disability, shift work, chronic illness, household and income constraints. Preserve optionality, all ten inquiry areas, evidence boundaries, and urgent escalation. The system should fit a person's life rather than demand that they fit a universal ideal.
+Follow [LANGUAGE.md](LANGUAGE.md): ask for language preferences rather than inferring them, and translate each human-facing surface accordingly. The checked-in dashboard and habit tracker are English-only starters; localize and test a copy before using another language, or offer a language-matched notes view. Adapt wording and examples for age, culture, disability, shift work, chronic illness, household and income constraints. Preserve optionality, all ten inquiry areas, evidence boundaries, and urgent escalation. The system should fit a person's life rather than demand that they fit a universal ideal.
