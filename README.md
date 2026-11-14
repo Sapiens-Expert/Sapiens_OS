@@ -32,6 +32,8 @@ After onboarding, the AI offers an optional [local dashboard](dashboard/README.m
 
 To try a small routine, use the [habit guide](docs/HABITS.md), [private experiment template](templates/HABIT-EXPERIMENT.md), and optional [local habit tracker](habits/index.html). The tracker supports dated reflections and an opt-in calendar event download. It does not send notifications itself or monitor behavior in the background.
 
+For integration into your own AI environment, follow the [installation and removal guide](docs/LIFECYCLE.md). It explains how to adapt to the person's changing rhythms and keep the framework in a removable project boundary. Use is **on-demand by default**; contextual suggestions require an opt-in. A private [installation record](templates/INSTALLATION-RECORD.md) tracks where instructions, generated files, reminders and connected data live. The person can [ask their AI to pause, disable or remove the framework](templates/REMOVE-FRAMEWORK.md); the AI must verify what it can remove and identify what remains in other services or backups.
+
 See [docs/SAFETY.md](docs/SAFETY.md) for escalation, [docs/EVIDENCE.md](docs/EVIDENCE.md) for the scientific basis and limits, and [docs/IMPLEMENTATION.md](docs/IMPLEMENTATION.md) for platform setup and privacy.
 
 ## Authorship and rights

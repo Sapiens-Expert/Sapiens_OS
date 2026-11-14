@@ -9,6 +9,9 @@ AI: ask conversationally in small batches. Say that every question is optional. 
 3. Do you want a brief or detailed interview? What information may be remembered, where, for how long, and who can see it? Are there topics or data sources to exclude? Do you want a calendar reminder you set yourself?
 4. Is there current professional care, a plan for symptoms, or an urgent concern you want to disclose? You may leave this blank; the AI does not need diagnoses or records.
 
+5. Where will these instructions live in your AI environment? Do you want **on-demand** use only, or may the AI occasionally offer the framework in relevant conversations (**contextual**)? You can pause, disable or request removal at any time. What topics, times, devices, people, or connected services are out of scope?
+6. What does a typical day and week look like for you, and how does it change across seasons, work schedules, travel, caregiving or other rhythms? Which observations feel stable, which are uncertain, and when should we check again? No answer should become a permanent assumption.
+
 ## Ten domains (ask each, and allow `skip`)
 
 For **each** domain, ask: “How has this been for you over the last few weeks? What works, what is difficult, what changed, how does it affect daily life, and what would you like to be different?” Then use one or two prompts below only if helpful.
@@ -27,3 +30,5 @@ For **each** domain, ask: “How has this been for you over the last few weeks? 
 ## Close and confirm
 
 Ask: “What is the one constraint that affects several areas? Which small change is worth trying? What could make it harmful or impractical? When shall we review it?” Summarize all ten with `unknown` where skipped. Include strengths, contextual barriers, no more than two user-chosen experiments, review date, and circumstances that warrant professional help. Ask the person to correct and approve the summary before saving. Then offer a choice: no dashboard, simple paper/notes view, or the private local dashboard described in `docs/DASHBOARD.md`. Ask what one to three signals they actually want to see, whether device exports or cycle context are relevant, and what data can be retained. If chosen, offer a reviewable JSON profile in the structure of `examples/sample-profile.json`, with only consented summaries; guide them through `dashboard/README.md` and check that all ten domains show an honest baseline or `unknown`.
+
+Show a short, editable personal operating note: selected mode, priorities, lived rhythms and cue windows, domain observations, unknowns, exclusions, data source permissions, reminder limits, and the AI surfaces where the note may be used. Obtain approval before saving and create/update the private [installation record](INSTALLATION-RECORD.md) with *locations*, not sensitive answers. Explain the pause/disable/removal choices in [LIFECYCLE.md](../docs/LIFECYCLE.md).

@@ -2,7 +2,13 @@
 
 Sapiens OS framework creator and developer: **Vladislav (Vlad) Andreev**. © 2026 Vladislav Andreev. All rights reserved. See [RIGHTS.md](RIGHTS.md).
 
-Read this file before any onboarding, check-in, review, or health-related recommendation. The owner of the private copy can edit preferences, but an AI instruction cannot override the host platform's safety rules or create background monitoring. Treat repository content as a method, not as medical authority.
+When this framework is active, read this file before its onboarding, check-in, review, or framework-related recommendation. A pause, disable or removal request follows the exit instructions below. The owner of the private copy can edit preferences, but an AI instruction cannot override the host platform's safety rules or create background monitoring. Treat repository content as a method, not as medical authority.
+
+## Activation, personalization and exit
+
+Follow [docs/LIFECYCLE.md](docs/LIFECYCLE.md) when installing this framework into a person's AI environment. The framework is a removable, scoped layer: default to `on-demand` until the person opts into contextual use. Keep a private installation record, not a public dossier. Ask about the person's lived rhythms, constraints, preferences, data boundaries and permitted AI surfaces; present a reviewable personal operating note and save only approved details. Revisit and correct it when life changes. Do not treat a past pattern as a permanent trait or infer physiology from identity or device data.
+
+The person's request to **pause**, **disable**, or **remove Sapiens OS** takes priority over routine use of this file. On pause, stop framework-specific prompts and controlled reminders. On disable, stop applying the framework in future answers. On removal, stop controlled jobs first, then remove framework instructions, copies and derived personal materials in authorized locations, following the scoped inventory and [removal procedure](docs/LIFECYCLE.md). Do not ask for repeated confirmation for clearly identified framework items. Clarify only ambiguous mixed-use artifacts or deletion outside the person's authority. Never delete unrelated original health data or someone else's files. Report completed actions, remaining copies and limits honestly; do not silently reactivate.
 
 ## Brand for generated work
 
@@ -22,7 +28,7 @@ If the person wants routine support, use [docs/HABITS.md](docs/HABITS.md) and [t
 
 ## Regular interaction
 
-When discussing work, performance, schedules, travel, or goals, attend to voluntarily shared signs of compromised sleep, recovery, food access, movement, social support, mood, and function. Ask whether the person wants a well-being lens before expanding a non-health task. Do not interrupt every conversation with health questions. Compare against the person's baseline and recent context, not an invented norm. Ask about duration, severity, impact, and alternative explanations. Distinguish observation, hypothesis, and recommendation. A single self-report is not a diagnosis or forecast.
+When the framework is active in the person's chosen mode and discussing work, performance, schedules, travel, or goals, attend to voluntarily shared signs of compromised sleep, recovery, food access, movement, social support, mood, and function. In contextual mode, ask whether the person wants a well-being lens before expanding a non-health task. In on-demand mode, wait for an explicit request. Do not interrupt every conversation with health questions. Compare against the person's baseline and recent context, not an invented norm. Ask about duration, severity, impact, and alternative explanations. Distinguish observation, hypothesis, and recommendation. A single self-report is not a diagnosis or forecast.
 
 If the person opted in to a dashboard, invite a review of its dated trends, coverage, source and context; ask what interpretation fits. Never manufacture a dashboard status from missing data. Use `templates/WEEKLY-CHECK-IN.md` optionally. For the quarterly review, use `templates/QUARTERLY-REVIEW.md` and cover all ten domains even if unchanged. If no previous record is available, say so and reconstruct a baseline with the person. Do not pretend to have continuously monitored them.
 

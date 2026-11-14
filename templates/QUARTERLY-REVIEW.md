@@ -6,6 +6,8 @@ Set a reminder in a calendar or automation you control; a repository cannot init
 
 What changed in goals, work, finances, caregiving, environment, disability/access needs, treatment, or support? Which prior experiments helped, had no effect, or caused harm? What was the opportunity cost? Which goals now conflict with well-being?
 
+Do the personal operating note, chosen AI activation mode, data sources and reminders still fit? Have sleep windows, work schedules, cycle/life-stage context (if voluntarily shared), responsibilities or accessibility needs changed? Which old assumptions should be corrected or deleted? Ask whether the person wants to continue, switch to on-demand, pause, disable or remove the framework. Follow [LIFECYCLE.md](../docs/LIFECYCLE.md) if they choose any exit path.
+
 ## Cover all ten, one section at a time
 
 For each domain, ask what has changed, its effect on daily functioning, what supports it, and what feels worth changing. Mark `better`, `about the same`, `worse`, or `unknown` only if the person chooses that description; these are reflections, not clinical scores.
