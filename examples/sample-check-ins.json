@@ -1,0 +1,8 @@
+{
+  "schema": "sapiens-os-check-ins-v1",
+  "watch_domains": ["Rest", "Sleep"],
+  "check_ins": [
+    {"date": "2026-11-01", "domains": {"Rest": "difficult", "Sleep": "mixed"}},
+    {"date": "2026-11-08", "domains": {"Rest": "difficult", "Sleep": "unknown"}}
+  ]
+}

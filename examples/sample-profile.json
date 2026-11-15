@@ -10,7 +10,7 @@
     "Light/dark rhythms": {"status": "unknown", "note": ""},
     "Agency": {"status": "mixed", "note": "Fictional: little control over deadlines"},
     "Meaning": {"status": "supportive", "note": "Fictional: work feels meaningful"},
-    "Rest": {"status": "difficult", "note": "Fictional: few real breaks"},
+    "Rest": {"status": "difficult", "note": "Fictional: few real breaks", "focus": true},
     "Curiosity": {"status": "unknown", "note": ""}
   },
   "observations": []

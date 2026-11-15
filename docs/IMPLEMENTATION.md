@@ -6,6 +6,8 @@ Place `AGENTS.md` in the tool's persistent project instructions if supported. Pu
 
 For a personal installation, use the scoped setup, activation modes, dated personal operating note and private inventory in [LIFECYCLE.md](LIFECYCLE.md). Prefer a removable project boundary over scattered global prompt copies. Default to on-demand use until the person chooses contextual use. Test “pause,” “disable,” and “remove” with fictional artifacts before real records are saved. The [installation record](../templates/INSTALLATION-RECORD.md) makes later cleanup possible.
 
+Use [INTEGRATION.md](INTEGRATION.md) to turn onboarding into a qualitative map, person-chosen focus and next action brief. The [offline example](../tools/review_patterns.py) can produce a dated discussion cue from explicitly supplied check-ins; it cannot run by itself. An installer who wants recurring review must separately connect a user-controlled scheduler, verify its exact data scope and notification behavior, and add the job to the private inventory.
+
 ## Dashboard choice
 
 After the initial ten-domain interview, offer the person `docs/DASHBOARD.md`. Ask whether a dashboard helps, which one to three signals matter, and whether a paper/notes version is preferable. The included `dashboard/index.html` works as an offline starter with manual reflections and CSV import. It does not sync devices or send alerts in the background. Verify data provenance and missingness before discussing trends.

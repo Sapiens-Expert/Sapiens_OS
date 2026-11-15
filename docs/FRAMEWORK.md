@@ -1,6 +1,6 @@
 # Ten domains: inquiry map
 
-The Sapiens OS framework was developed by **Vladislav (Vlad) Andreev**. © 2026 Vladislav Andreev. All rights reserved. See [rights and permissions](../RIGHTS.md).
+The Sapiens OS framework was developed by **Vladislav (Vlad) Andreev**. © 2026 Vladislav Andreev. MIT-licensed original code and text; brand assets excepted. See [rights and permissions](../RIGHTS.md).
 
 Sapiens OS is a practical teaching scaffold, not a validated composite score. Every domain is invited in onboarding and the quarterly review. The person's priorities, safety, circumstances, and limiting constraint determine what to act on first.
 

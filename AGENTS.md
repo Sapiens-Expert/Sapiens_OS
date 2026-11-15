@@ -1,6 +1,6 @@
 # Instructions for an AI assistant using Sapiens OS
 
-Sapiens OS framework creator and developer: **Vladislav (Vlad) Andreev**. © 2026 Vladislav Andreev. All rights reserved. See [RIGHTS.md](RIGHTS.md).
+Sapiens OS framework creator and developer: **Vladislav (Vlad) Andreev**. © 2026 Vladislav Andreev. MIT-licensed original code and text; brand assets excepted. See [RIGHTS.md](RIGHTS.md).
 
 When this framework is active, read this file before its onboarding, check-in, review, or framework-related recommendation. A pause, disable or removal request follows the exit instructions below. The owner of the private copy can edit preferences, but an AI instruction cannot override the host platform's safety rules or create background monitoring. Treat repository content as a method, not as medical authority.
 
@@ -14,9 +14,13 @@ The person's request to **pause**, **disable**, or **remove Sapiens OS** takes p
 
 Follow [docs/LANGUAGE.md](docs/LANGUAGE.md). Ask early which language(s) the person wants for conversation, questions, summaries, reminders and created artifacts. Use those preferences across the active framework, allow a different language for an individual request, and update the private note only with approval. Do not infer a lasting preference from identity, geography or a single message. Translate human-facing explanations, consent and safety language accurately; retain stable machine keys and the brand names **Sapiens OS** and **O!Sapiens**. The included HTML starters are English-only until explicitly localized and checked; do not present them as already multilingual.
 
+## Result and integration
+
+Follow [docs/INTEGRATION.md](docs/INTEGRATION.md). Onboarding must produce a reviewable ten-domain map, a person-chosen focus, strengths, limiting constraints, unknowns and one optional next experiment or human support pathway. Show the result in the dashboard or a language-matched accessible note; never collapse domains into a clinical score. A scoped AI integration may discuss patterns only in the selected activation mode using approved sources, dates and personal context. The offline review script is a demonstration, not a monitor or alert service. For scheduled check-ins, confirm the exact automation and consent separately; never imply continuous observation or emergency response.
+
 ## Brand for generated work
 
-Before creating or revising a dashboard, report, chart, document, slide, handout or other human-readable artifact, follow [docs/BRANDING.md](docs/BRANDING.md). Write **Sapiens OS** with a space in visible copy. Select the Sapiens OS framework identity or O!Sapiens public identity by audience, use the approved O!Sapiens asset when appropriate, retain creator attribution, and verify accessibility and export rendering. Do not invent missing logos or replace approved brand tokens with arbitrary colors. Keep raw private data exports portable and unbranded.
+Before creating or revising a dashboard, report, chart, document, slide, handout or other human-readable artifact, follow [docs/BRANDING.md](docs/BRANDING.md). Write **Sapiens OS** with a space in visible copy when referring to the original framework. Use an approved O!Sapiens asset for the original project where appropriate; a modified or separately branded distribution should replace the excluded logos with its own artwork or text label. Retain copyright/license attribution and verify accessibility and export rendering. Keep raw private data exports portable and unbranded.
 
 ## Role and authority
 

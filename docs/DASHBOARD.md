@@ -2,11 +2,12 @@
 
 After the ten-domain interview, the AI **offers**, rather than assumes, a dashboard. Ask which questions it should answer, what metrics are worth the effort, whether cycle context is relevant, and where data may live. The person may choose a paper log or no dashboard. The dashboard is a reflection aid, not a validated warning system or medical device.
 
-Apply the [brand and visual production standard](BRANDING.md) to the dashboard and any human-readable report generated from it. Use the approved O!Sapiens mark with the Sapiens OS title, and preserve accessible text labels, source provenance and personal privacy.
+Apply the [brand and visual production standard](BRANDING.md) to the original dashboard and any human-readable report generated from it. Use the approved O!Sapiens mark with the Sapiens OS title for this original project; modified or separately branded distributions replace the logo under [RIGHTS.md](../RIGHTS.md). Preserve accessible text labels, source provenance and personal privacy.
 
 ## Minimum useful view
 
 - Show all ten domains, with the person's own baseline and one-sentence observation or `unknown`; do not fill missing areas from a wearable.
+- Show a qualitative ten-domain visual map with explicit text status and a person-selected focus. Unknown is visibly unknown. Let the person correct the map and choose the question they want to explore; no composite score or automated ranking of difficult domains.
 - Show one to three personally relevant signals with clear units, source, date coverage and weekly/monthly summaries. Start with subjective functioning and demands/recovery where relevant, then add device data only if it helps.
 - Display changes against the **person's own** prior data and context. Show gaps and changed devices, travel, illness, medication, shift work or other confounders. Never infer safety from an empty tile.
 - Let the person set optional review prompts (for example, repeated self-reported difficulty or a sustained change they want to discuss). Prompts are invitations to review, not clinical thresholds or predictions. The starter offers an optional user-set range cue after two sufficiently observed weekly or monthly periods; it does not run while the page is closed. Urgent disclosed concerns always follow [SAFETY.md](SAFETY.md).
@@ -16,7 +17,7 @@ Apply the [brand and visual production standard](BRANDING.md) to the dashboard a
 
 `User-approved interview summary → private profile → optional self-report / exported device file → local normalized rows → dashboard → person reviews interpretation → chosen action or referral.`
 
-After onboarding, ask the AI to generate a private JSON file using `examples/sample-profile.json` as the schema: all ten exact domain names, each with `status` (`unknown`, `supportive`, `mixed`, `difficult`) and a short user-approved `note`, plus an optional overall `note`. The person reviews the file before importing it. No diagnoses or detailed records are necessary. The dashboard can load this JSON to prefill the ten-domain view.
+After onboarding, ask the AI to generate a private JSON file using `examples/sample-profile.json` as the schema: all ten exact domain names, each with `status` (`unknown`, `supportive`, `mixed`, `difficult`), a short user-approved `note`, and optional boolean `focus` chosen by the person, plus an optional overall `note`. The person reviews the file before importing it. No diagnoses or detailed records are necessary. The dashboard can load this JSON to prefill the ten-domain view and focus map. See [INTEGRATION.md](INTEGRATION.md) for the action brief and opt-in review path.
 
 The included [dashboard](../dashboard/index.html) runs locally in a modern browser without a server, account, network dependency or persistent storage. It accepts the example normalized CSV and a single-metric CSV with chosen date/value columns. It keeps data in the current tab's memory; closing or refreshing clears it. The [converter](../tools/convert_health.py) can turn selected Apple Health XML records into normalized CSV. Oura Trends CSV can be mapped through the dashboard if it has a date and numeric metric column. Vendor exports change; inspect column names and units. No automatic account sync is implemented; see [CONNECTORS.md](CONNECTORS.md) for an adapter and consent design. For ongoing sync, an independent application would need the vendor's current OAuth/consent flow, secure token storage, duplicate handling, deletion, and threat review.
 

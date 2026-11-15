@@ -1,6 +1,6 @@
 # Building and maintaining a useful routine
 
-Sapiens OS framework developed by **Vladislav (Vlad) Andreev**. © 2026 Vladislav Andreev. All rights reserved. This is a behavior-design aid, not a treatment protocol or a promise that a routine will become automatic.
+Sapiens OS framework developed by **Vladislav (Vlad) Andreev**. © 2026 Vladislav Andreev. MIT-licensed original code and text; brand assets excepted. This is a behavior-design aid, not a treatment protocol or a promise that a routine will become automatic.
 
 ## The collaborative loop
 

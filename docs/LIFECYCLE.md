@@ -1,10 +1,10 @@
 # Personal installation, adaptation and removal
 
-Sapiens OS framework developed by **Vladislav (Vlad) Andreev**. © 2026 Vladislav Andreev. All rights reserved. See [RIGHTS.md](../RIGHTS.md). This document describes a portable setup pattern. Capabilities differ across AI services, operating systems and connected tools. Do not claim a step occurred without verifying it.
+Sapiens OS framework developed by **Vladislav (Vlad) Andreev**. © 2026 Vladislav Andreev. MIT-licensed original code and text; brand assets excepted. See [RIGHTS.md](../RIGHTS.md). This document describes a portable setup pattern. Capabilities differ across AI services, operating systems and connected tools. Do not claim a step occurred without verifying it.
 
 ## Install as a removable layer
 
-1. **Check rights and scope.** Before incorporating this repository into another system, read [RIGHTS.md](../RIGHTS.md) and obtain any permission required for the intended use. A public download is not a general reuse license.
+1. **Check rights and scope.** Original code and documentation are [MIT-licensed](../LICENSE), so a person may incorporate and adapt them without asking the creator for individual permission. Read [RIGHTS.md](../RIGHTS.md) for logo and third-party boundaries; keep personal data private.
 2. **Choose a bounded location.** Put framework instructions and files in a named project, workspace, folder or configuration module. Refer to `AGENTS.md` from that boundary. Do not copy its full text into many unrelated global prompts if a narrower scope is available. Keep the source repository separate from the person's private records.
 3. **Choose an activation mode.** `off` means no framework use; `on-demand` means only when the person explicitly asks; `contextual` means the assistant may *offer* a well-being lens in relevant conversations, without imposing it. Default to **on-demand** until the person opts into contextual use. Record the choice and exclusions in a private setup note. Never let repository instructions supersede higher-priority platform rules or other user choices.
 4. **Record the installation footprint privately.** Use [INSTALLATION-RECORD.md](../templates/INSTALLATION-RECORD.md) for the repository checkout, project instructions, memory/knowledge files, generated profiles and reports, dashboard/tracker copies, linked data, calendar entries, automations, and backup/sync locations. Record which locations the AI can actually modify. Keep the record outside a shared/public repository and do not list sensitive contents in it.
