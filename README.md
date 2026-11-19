@@ -40,6 +40,10 @@ The [language guide](docs/LANGUAGE.md) makes the person's chosen language govern
 
 See [docs/SAFETY.md](docs/SAFETY.md) for escalation, [docs/EVIDENCE.md](docs/EVIDENCE.md) for the scientific basis and limits, and [docs/IMPLEMENTATION.md](docs/IMPLEMENTATION.md) for platform setup and privacy.
 
+## Operator pack and science library
+
+For people who run things (a business, a team, a household, their own work), the optional [operator pack](operator/README.md) adds a daily start and close, a monthly capacity review, an annual review and a decision record, on a rhythm the person controls. It draws on a [behavioral science library](docs/science/README.md): short method modules for decisions, motivation, attention, recovery and environment, each with an evidence tag, its limits and a "when not to use" note, plus a [register of popular claims that do not hold up](docs/science/weak-evidence-register.md). Sources are listed in [references.json](references.json); `python3 tools/check_references.py` verifies them.
+
 ## Authorship and rights
 
 Sapiens OS was developed by **Vladislav (Vlad) Andreev**. Original code, templates and documentation are [MIT-licensed](LICENSE): use, adapt and share them, including commercially, while retaining the copyright and license notice. No individual written consent is needed for that licensed use. The O!Sapiens logo files under `assets/brand/` are excluded from MIT and may be used to identify this original project in its unmodified demonstration pages; see [RIGHTS.md](RIGHTS.md). Private health data is never part of the open-source grant. Contributors must have the rights to license their additions under MIT.

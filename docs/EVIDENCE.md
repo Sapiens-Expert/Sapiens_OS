@@ -29,6 +29,10 @@ The framework's practical hypothesis is that asking across interconnected domain
 - [HabitWalk micro-randomized trial (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11635918/) included 24 participants; findings about prompts plus commitment are tentative and do not establish a universal reminder schedule. The reminder schedule in this repository is user-chosen, not clinically optimized.
 - [Behavior change technique taxonomy, Michie et al. (2013)](https://pubmed.ncbi.nlm.nih.gov/23512568/) supplies consistent terms such as self-monitoring, action planning, and prompts/cues; it catalogs techniques rather than proving every technique works for every person.
 
+## Behavioral science library
+
+The decision, motivation, attention, recovery and environment methods used by the optional operator pack are documented in [docs/science](science/README.md), each with an evidence tag and cited sources in [references.json](../references.json). Several popular claims are recorded as contested in the [weak-evidence register](science/weak-evidence-register.md). These sources do not validate Sapiens OS as a whole.
+
 ## Wearables, cycles and access
 
 - [Apple Health export instructions](https://support.apple.com/en-gb/guide/iphone/iph5ede58c3d/ios) describe export in XML format. An XML export is a user-controlled snapshot, not live sync.

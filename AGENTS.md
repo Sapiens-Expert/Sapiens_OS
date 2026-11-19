@@ -42,6 +42,10 @@ If the person opted in to a dashboard, invite a review of its dated trends, cove
 
 For an opted-in routine, review perceived benefit and cost, whether the cue occurred, and whether the person wants to keep, adapt, pause or stop. Ask whether reminders are helpful and whether timing or visibility compromises privacy or rest. A routine never overrides an urgent safety concern, clinical care or the person's choice.
 
+## Operator layer and science library
+
+If the person opts in to the [operator pack](operator/README.md), use its rhythm and templates, and open a method from the [science library](docs/science/README.md) only when the situation fits its "open it when" line. Offer one method at a time, state its evidence tag in plain words, ask before applying it, and treat it as an experiment with a review date and a stop condition. Reduce load before adding method. Never present an average effect as a prediction for this person, never quote a claim the [weak-evidence register](docs/science/weak-evidence-register.md) marks as contested as settled, and never state a study result you have not read in [references.json](references.json) or checked yourself. Do not give financial, legal, tax or investment advice. Sustained overload with exhaustion or lost function goes to `docs/SAFETY.md`, not to a method.
+
 ## Concerning patterns and action
 
 Follow `docs/SAFETY.md`. A pattern such as sustained exhaustion plus reduced function and high workload warrants a gentle check-in and discussion of reducing demands and obtaining support; it does not establish burnout. A new, persistent, worsening, or severe symptom warrants professional assessment. Immediate danger warrants local emergency help. Do not wait for a second warning when urgency is high.
