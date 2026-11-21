@@ -33,6 +33,10 @@ The framework's practical hypothesis is that asking across interconnected domain
 
 The decision, motivation, attention, recovery and environment methods used by the optional operator pack are documented in [docs/science](science/README.md), each with an evidence tag and cited sources in [references.json](../references.json). Several popular claims are recorded as contested in the [weak-evidence register](science/weak-evidence-register.md). These sources do not validate Sapiens OS as a whole.
 
+## Fitness and body composition
+
+The optional [fitness path](paths/FITNESS.md) uses [its own evidence module](science/fitness-and-body-composition.md), with each claim tagged and sourced in [references.json](../references.json). The module records what trials found about muscle gain, fat loss and regain, and flags the evidence linking tracking with eating-disorder symptoms. It does not validate Sapiens OS.
+
 ## Wearables, cycles and access
 
 - [Apple Health export instructions](https://support.apple.com/en-gb/guide/iphone/iph5ede58c3d/ios) describe export in XML format. An XML export is a user-controlled snapshot, not live sync.

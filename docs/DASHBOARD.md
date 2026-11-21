@@ -11,7 +11,8 @@ Apply the [brand and visual production standard](BRANDING.md) to the original da
 - Show one to three personally relevant signals with clear units, source, date coverage and weekly/monthly summaries. Start with subjective functioning and demands/recovery where relevant, then add device data only if it helps.
 - Display changes against the **person's own** prior data and context. Show gaps and changed devices, travel, illness, medication, shift work or other confounders. Never infer safety from an empty tile.
 - Let the person set optional review prompts (for example, repeated self-reported difficulty or a sustained change they want to discuss). Prompts are invitations to review, not clinical thresholds or predictions. The starter offers an optional user-set range cue after two sufficiently observed weekly or monthly periods; it does not run while the page is closed. Urgent disclosed concerns always follow [SAFETY.md](SAFETY.md).
-- Give an accessible table and plain-language summary; color is supplemental. Allow deleting imports and turning off cycle context or reminders.
+- Give an accessible table and plain-language summary; color is supplemental. The starter also draws one small chart of period averages with the table beside it, marks sparse periods as such and never colors a value as good or bad. Allow deleting imports and turning off cycle context or reminders.
+- For the [fitness path](paths/FITNESS.md), chart performance and everyday measures (load, repetitions, sessions, energy) before anything body-related. Import body weight or measurements only if the person chose them for a stated reason.
 
 ## Data path
 

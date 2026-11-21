@@ -44,6 +44,10 @@ See [docs/SAFETY.md](docs/SAFETY.md) for escalation, [docs/EVIDENCE.md](docs/EVI
 
 For people who run things (a business, a team, a household, their own work), the optional [operator pack](operator/README.md) adds a daily start and close, a monthly capacity review, an annual review and a decision record, on a rhythm the person controls. It draws on a [behavioral science library](docs/science/README.md): short method modules for decisions, motivation, attention, recovery and environment, each with an evidence tag, its limits and a "when not to use" note, plus a [register of popular claims that do not hold up](docs/science/weak-evidence-register.md). Sources are listed in [references.json](references.json); `python3 tools/check_references.py` verifies them.
 
+## Fitness path
+
+For people who come to lose fat, build muscle or get fitter, the optional [fitness path](docs/paths/FITNESS.md) gives that goal its own route: a starting-point check that sends some people to a professional first, an honest choice of goal and its trade-offs, one lever at a time, safe-order measurement, stop signs and a maintenance plan. It rests on an [evidence-tagged module](docs/science/fitness-and-body-composition.md) and a [private plan template](templates/FITNESS-PLAN.md). It sets no calorie targets, recommends no supplements or drugs and does not push tracking.
+
 ## Authorship and rights
 
 Sapiens OS was developed by **Vladislav (Vlad) Andreev**. Original code, templates and documentation are [MIT-licensed](LICENSE): use, adapt and share them, including commercially, while retaining the copyright and license notice. No individual written consent is needed for that licensed use. The O!Sapiens logo files under `assets/brand/` are excluded from MIT and may be used to identify this original project in its unmodified demonstration pages; see [RIGHTS.md](RIGHTS.md). Private health data is never part of the open-source grant. Contributors must have the rights to license their additions under MIT.

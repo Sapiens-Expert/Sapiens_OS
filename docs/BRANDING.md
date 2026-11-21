@@ -26,6 +26,8 @@ The [Sapiens OS brand strategy](https://docs.google.com/document/d/1ex6aknCaSq0n
 
 The strategy names Montserrat Bold for headings, Montserrat Regular for body/UI, and Palatino for decorative product line names. Use licensed or locally installed fonts when available; otherwise a clear sans-serif fallback for UI and an ordinary serif fallback for decorative display. Do not require a network font for the private offline dashboard. Preserve legible contrast; brand colors are not a substitute for accessible status text. The dashboard's warning color is an accessibility utility, not an additional brand color.
 
+Neutral surfaces, borders and muted text are derived tints of Near White and Dark Text. The starter pages follow the system light or dark setting: in dark mode Dark Text `#1A1A2E` becomes the page background, Near White the text, and Soft Sand the primary action and chart color, because O! Blue does not reach readable contrast on a dark surface. Status colors (working well, mixed, difficult, unknown) are utility colors, always shown with a text label. Tokens live in [`assets/theme.css`](../assets/theme.css).
+
 ## Logo and layout
 
 The owner's [O!Sapiens asset folder](https://drive.google.com/drive/folders/18qLiK6mJDsizfn-BbfQsEU7ssSC5FJrN) contains original marks, wordmarks and brand reference PDFs. Approved files carried into this repository:

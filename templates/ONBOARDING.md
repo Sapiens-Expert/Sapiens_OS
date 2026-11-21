@@ -33,6 +33,10 @@ For **each** domain, ask: “How has this been for you over the last few weeks? 
 
 Only if the person wants the [operator pack](../operator/README.md): ask the operating-context questions listed there (what they run or look after, decisions only they can make, where attention fragments, what cannot change now, what they would stop, what enough looks like). Mark skipped items `unknown` and keep answers in the private note.
 
+## Fitness goal (optional)
+
+Only if the person's own goal is to lose fat, build muscle or get fitter: offer the [fitness path](../docs/paths/FITNESS.md) after the ten-domain map, run its starting-point check, and keep any answers in the private note. Do not raise body goals unprompted.
+
 ## Close and confirm
 
 Ask: “What is the one constraint that affects several areas? Which small change is worth trying? What could make it harmful or impractical? When shall we review it?” Summarize all ten with `unknown` where skipped. Include strengths, contextual barriers, no more than two user-chosen experiments, review date, and circumstances that warrant professional help. Ask the person to correct and approve the summary before saving. Then offer a choice: no dashboard, simple paper/notes view, or the private local dashboard described in `docs/DASHBOARD.md`. Ask what one to three signals they actually want to see, whether device exports or cycle context are relevant, and what data can be retained. If chosen, offer a reviewable JSON profile in the structure of `examples/sample-profile.json`, with only consented summaries; guide them through `dashboard/README.md` and check that all ten domains show an honest baseline or `unknown`.
