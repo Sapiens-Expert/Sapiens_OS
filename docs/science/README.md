@@ -24,6 +24,7 @@ A tag describes what a source actually tested. It is a judgment made on the date
 | [Attention and load](attention-and-load.md) | fragmented by switching, interruptions or too many open commitments |
 | [Energy and recovery](energy-and-recovery.md) | depleted, unable to switch off, or shaping their work and sleep timing |
 | [Environment and commitment](environment-and-commitment.md) | relying on willpower where friction, cues or a commitment would do the job |
+| [Fitness and body composition](fitness-and-body-composition.md) | wanting to build muscle, lose fat or get fitter (used by the [fitness path](../paths/FITNESS.md)) |
 | [Weak-evidence register](weak-evidence-register.md) | quoting a popular claim, or asked "is it true that..." |
 
 ## Rules for every module
@@ -38,4 +39,4 @@ A tag describes what a source actually tested. It is a judgment made on the date
 
 Every numbered reference in these pages (for example `R05`) has an entry in [references.json](../../references.json) with its title, authors, year, venue and the date its abstract was read. Run `python3 tools/check_references.py` before merging a change: it fails on a missing or unused reference, a missing evidence tag, or a module without a "When not to use" section. A claim without a source is cut, not hedged.
 
-Not yet reviewed, so deliberately absent: heart-rate-variability or "readiness" scores, step-count targets, chronotype questionnaires, time-restricted eating, cold exposure, and any supplement. Add them only with sources opened and tagged.
+Not yet reviewed, so deliberately absent: heart-rate-variability or "readiness" scores, step-count targets, chronotype questionnaires, time-restricted eating, cold exposure, and any supplement. The fitness module lists its own gaps. Add them only with sources opened and tagged.
