@@ -1,0 +1,11 @@
+{
+  "name": "sapiens-os",
+  "displayName": "Sapiens OS",
+  "version": "0.1.0",
+  "description": "An on-demand, human-owned framework for noticing well-being patterns and making small, sustainable choices with your AI assistant. Educational, not medical.",
+  "author": { "name": "Vladislav (Vlad) Andreev" },
+  "homepage": "https://github.com/Sapiens-Expert/Sapiens_OS",
+  "repository": "https://github.com/Sapiens-Expert/Sapiens_OS",
+  "license": "MIT",
+  "keywords": ["well-being", "habits", "coaching", "self-reflection", "privacy"]
+}
