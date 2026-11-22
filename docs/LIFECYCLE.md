@@ -31,3 +31,9 @@ Search the AI platform's memory/project settings and chat retention controls. If
 End with a **removal receipt**: scope requested; actions completed with location and date; remaining items and why; external steps for the person; and whether the assistant will still see any framework content in the current conversation or provider history. Do not claim universal deletion or that the framework has been “forgotten” when that cannot be verified. Outside the installation, respond to unrelated health requests under ordinary platform and user instructions; a removed framework must not silently reactivate.
 
 The person may ask to export their private data before removal. Offer an export if useful, but do not delay an explicit removal request merely to propose more retention. See the [removal prompt](../templates/REMOVE-FRAMEWORK.md) for portable wording.
+
+## Installing and removing the Claude Code plugin
+
+The `sapiens-os` plugin is the framework's removable layer for Claude Code: `/plugin install sapiens-os --marketplace Sapiens-Expert/Sapiens_OS`. Its five skills are on-demand only. The plugin folder is replaced when the plugin updates, so personal notes never belong there. They live in a private workspace the person creates with `/sapiens-os:setup` (or `python3 tools/init_workspace.py`) in a folder of their choice. List the plugin, the marketplace entry and the workspace folder in the [installation record](../templates/INSTALLATION-RECORD.md).
+
+To remove it: `claude plugin uninstall sapiens-os`, then `claude plugin marketplace remove sapiens-os`, then delete the workspace folder, and any calendar events or reminders the person created, after offering an export. Uninstalling the plugin does not touch the workspace. A workspace that was pushed to a remote or synced to a cloud service has copies the AI cannot delete; say so in the removal receipt.

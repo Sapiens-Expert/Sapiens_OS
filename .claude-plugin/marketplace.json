@@ -1,0 +1,12 @@
+{
+  "name": "sapiens-os",
+  "description": "Sapiens OS for Humans: an on-demand well-being framework for Claude Code.",
+  "owner": { "name": "Vladislav (Vlad) Andreev" },
+  "plugins": [
+    {
+      "name": "sapiens-os",
+      "source": "./",
+      "description": "Start in two minutes, keep a private workspace, check in weekly, return after a gap, review quarterly. Nothing runs in the background."
+    }
+  ]
+}

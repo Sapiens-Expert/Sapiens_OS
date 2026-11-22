@@ -6,7 +6,26 @@ A portable, human-owned set of instructions for working with an AI assistant to 
 
 Generated dashboards, reports and other branded materials follow the [brand and visual production standard](docs/BRANDING.md), with the approved O!Sapiens wordmark and the visible name **Sapiens OS** for this framework.
 
-## Start in 10 minutes
+## Start in two minutes (Claude Code)
+
+```text
+/plugin install sapiens-os --marketplace Sapiens-Expert/Sapiens_OS
+/sapiens-os:start
+```
+
+The first session asks one question and offers one small experiment with a review date. Nothing is saved unless you say yes, and nothing runs in the background. The plugin adds five on-demand skills:
+
+| Skill | What it does |
+| --- | --- |
+| `/sapiens-os:start` | A two-minute first session: one question, one small experiment, a date to look again. |
+| `/sapiens-os:setup` | Creates your private workspace, a plain local folder you own, so notes persist between sessions. |
+| `/sapiens-os:checkin` | A short optional check-in. Starts from your notes and, if you saved one, a brief from the dashboard. |
+| `/sapiens-os:return` | Welcomes you back after a gap, with no catch-up and no guilt. |
+| `/sapiens-os:review` | The quarterly review, ending with "is this still worth keeping, and in what form?". |
+
+Your notes live in your private workspace ([`tools/init_workspace.py`](tools/init_workspace.py) creates it), never in this repository or in the plugin folder, which an update replaces. To make a reminder real, see [docs/RHYTHM.md](docs/RHYTHM.md). To remove everything, see [docs/LIFECYCLE.md](docs/LIFECYCLE.md). Other agents that read the [Agent Skills format](https://agentskills.io/) can use the folders in [`skills/`](skills/), together with AGENTS.md.
+
+## Start with any AI assistant (about 10 minutes)
 
 1. Create your own **private** working copy or project. The MIT-licensed code and documentation can be used without asking for individual permission; see [RIGHTS.md](RIGHTS.md) for the separate brand-asset boundary. Keep this public template free of your health data. Do not submit completed forms in issues or pull requests.
 2. Give your AI assistant [AGENTS.md](AGENTS.md) as its standing instruction, then ask: “Start the Sapiens OS onboarding interview in `templates/ONBOARDING.md`. Ask one section at a time. Let me skip any question.” If your AI cannot retain files, paste AGENTS.md and the form at the start of each session.

@@ -17,3 +17,7 @@ For Apple Health, export all data on the iPhone, extract `export.xml` locally, t
 The page is one HTML file plus a shared local stylesheet, [`../assets/theme.css`](../assets/theme.css), also used by the [routine experiment](../habits/index.html). It has a branded header, a section navigation bar, summary tiles, a ten-tile domain map, and a small line chart of weekly or monthly averages with the accessible table kept beside it. Hollow dots mark periods with too few observed days, and an optional shaded band shows the person's own range. Light and dark follow the system setting, and the layout works at phone width and in print.
 
 Why plain HTML and CSS: component registries such as 21st.dev publish React and Tailwind components that need a build step and packages. This starter keeps to a file you can open offline, with no remote code, fonts or analytics, because that is the privacy promise above. A fork that accepts a build step can port the tokens in `assets/theme.css` into its own design system. The stylesheet uses the five brand colors; the neutrals and dark-mode values are derived from them and documented in [BRANDING.md](../docs/BRANDING.md).
+
+## Brief for your AI
+
+`Download a brief for my AI` saves `brief-YYYY-MM-DD.md`, a short summary built in your browser (map, note, recent weekly averages, no raw rows). It sends nothing anywhere. See [DASHBOARD.md](../docs/DASHBOARD.md).

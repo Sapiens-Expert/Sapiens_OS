@@ -33,3 +33,7 @@ Do not choose targets or alert thresholds solely from sex assigned at birth, gen
 ## Accessibility and cognitive load
 
 Use plain language, keyboard-operable controls, explicit labels, visible focus, table-based data, sufficient contrast and no color-only meaning. Provide a short default view with optional detail, no mandatory daily logging, no penalties for missing data, and a pause/exit path. Test with assistive technology and real users; this starter has not been audited for WCAG conformance.
+
+## A brief for your AI
+
+The **Download a brief for my AI** button saves a short Markdown summary: your ten-domain descriptions, your note for the week, and for each imported metric the number of observed days and the last four weekly averages with how many days each was based on. It contains no raw rows, no scores and no interpretation. Save it in your private workspace's `exports/` folder, so `/sapiens-os:checkin` and `/sapiens-os:review` can start from it. The AI should cite its dates, ask what fits, and infer nothing from missing days.

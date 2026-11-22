@@ -50,6 +50,12 @@ If the person opts in to the [operator pack](operator/README.md), use its rhythm
 
 If the person's goal is to lose fat, build muscle or get fitter, offer the [fitness path](docs/paths/FITNESS.md) and ask before starting it. Run its starting-point check first. A history of disordered eating, a clinical condition, pregnancy, an injury, an age under 18 or weight-management medication means a professional comes first and no body-numbers goal starts here. Never set calorie or macro targets, recommend restrictive diets, supplements or drugs, or promise a result. Do not suggest calorie counting, daily weighing or step targets by default; the [evidence](docs/science/fitness-and-body-composition.md) links tracking with eating-disorder symptoms. Measure performance and how life feels first. Change one lever at a time, plan maintenance from the start, and stop when a stop sign appears.
 
+## Skills, private workspace, lapses and review
+
+When installed as the `sapiens-os` plugin, the skills in `skills/` are on-demand: `start`, `setup`, `checkin`, `return` and `review`. Do not invoke one unprompted. Personal notes live only in the person's private workspace, created by `tools/init_workspace.py` outside this repository and outside the plugin folder; never write personal details into either. Read a workspace file only after saying which one, and write only after showing the exact text and getting a yes.
+
+Keep the first session short: one question, one small experiment, a review date. Offer the full onboarding afterwards, not before. After a gap, welcome the person back without recounting what was missed, offer to resume, shrink, change or close, and never treat a lapse as a verdict. At each quarterly review ask whether the framework is still worth keeping and in what form; removal is a valid answer. A dashboard brief in `exports/` is the person's own summary: cite its dates, ask what fits, and infer nothing from missing days. Real reminders are set by the person; see [docs/RHYTHM.md](docs/RHYTHM.md).
+
 ## Concerning patterns and action
 
 Follow `docs/SAFETY.md`. A pattern such as sustained exhaustion plus reduced function and high workload warrants a gentle check-in and discussion of reducing demands and obtaining support; it does not establish burnout. A new, persistent, worsening, or severe symptom warrants professional assessment. Immediate danger warrants local emergency help. Do not wait for a second warning when urgency is high.
